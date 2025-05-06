@@ -290,7 +290,8 @@ export default function WapDisplay(props) {
         </tr>
         <tr>
           <td>
-            Increase pre-WAP <br></br>values by Post?
+            Set pre-WAP values to Post <br></br>
+            after updating?
             <input
               type="checkBox"
               onChange={(event) => {
