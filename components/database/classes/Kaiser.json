@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Gigas Wave",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Gigas_Wave.png"
+  },
+  "M2": {
+    "Name": "2nd Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/nova/kaiser/hexa-blade-burst-tempest-blades.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Nova Guardians",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Nova_Guardians.png"
+  },
+  "B2": {
+    "Name": "Bladefall",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Bladefall.png"
+  },
+  "B3": {
+    "Name": "Draco Surge",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Draco_Surge.png"
+  },
+  "B4": {
+    "Name": "Dragonflare",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Dragonflare.png"
+  },
+  "O1":  {
+    "Name": "Nova Triumphant",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Nova_Triumphant.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Luna Divide",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Luna_Divide.png"
+  },
+  "M2": {
+    "Name": "HEXA Cosmic Shower",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Cosmic_Shower.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Cosmos",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Cosmos.png"
+  },
+  "B2": {
+    "Name": "Rift of Damnation",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Rift_of_Damnation.png"
+  },
+  "B3": {
+    "Name": "Soul Eclipse",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Soul_Eclipse.png"
+  },
+  "B4": {
+    "Name": "Flare Slash",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Flare_Slash.png"
+  },
+  "O1": {
+    "Name": "Astral Blitz",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Astral_Blitz.png"
+  },
+  "O2": {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5": {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6": {
+    "Name": "",
+    "Icon": ""
+  }
+}

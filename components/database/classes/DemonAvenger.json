@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Nether Shield",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Nether_Shield.png"
+  },
+  "M2": {
+    "Name": "HEXA Exceed: Execution",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Exceed_Execution.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Demonic Frenzy",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Demonic_Frenzy.png"
+  },
+  "B2": {
+    "Name": "Demonic Blast",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Demonic_Blast.png"
+  },
+  "B3": {
+    "Name": "Dimensional Sword",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Dimensional_Sword.png"
+  },
+  "B4": {
+    "Name": "Revenant",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Revenant.png"
+  },
+  "O1":  {
+    "Name": "Requiem",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Requiem.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

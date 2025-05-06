@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Tempest",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Tempest.png"
+  },
+  "M2": {
+    "Name": "HEXA Mille Aiguilles",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Mille_Aiguilles.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Luck of the Draw Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Luck_of_the_Draw.png"
+  },
+  "B2": {
+    "Name": "Ace in the Hole Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Ace_in_the_Hole.png"
+  },
+  "B3": {
+    "Name": "Phantom's Mark Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Phantom%27s_Mark.png"
+  },
+  "B4": {
+    "Name": "Rift Break Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Rift_Break.png"
+  },
+  "O1":  {
+    "Name": "Defying Fate",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Defying_Fate.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

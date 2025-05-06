@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Raging Blow",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Raging_Blow.png"
+  },
+  "M2": {
+    "Name": "HEXA Rising Rage",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Rising_Rage.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Burning Soul Blade",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Burning_Soul_Blade.png"
+  },
+  "B2": {
+    "Name": "Instinctual Combo",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Instinctual_Combo.png"
+  },
+  "B3": {
+    "Name": "Worldreaver",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Worldreaver.png"
+  },
+  "B4": {
+    "Name": "Sword Illusion",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Sword_Illusion.png"
+  },
+  "O1":  {
+    "Name": "Spirit Calibur",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Spirit_Calibur.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

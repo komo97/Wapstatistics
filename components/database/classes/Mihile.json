@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "1st Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/cygnus-knights/mihile/hexa-radiant-cross-3.png"
+  },
+  "M2": {
+    "Name": "2nd Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/cygnus-knights/mihile/hexa-royal-guard.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Shield of Light Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Shield_of_Light.png"
+  },
+  "B2": {
+    "Name": "Sword of Light Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Sword_of_Light.png"
+  },
+  "B3": {
+    "Name": "Radiant Soul Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Radiant_Soul.png"
+  },
+  "B4": {
+    "Name": "Light of Courage Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Light_of_Courage.png"
+  },
+  "O1":  {
+    "Name": "Durendal",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Durendal.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

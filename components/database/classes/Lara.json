@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "1st Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/anima/lara/hexa-essence-sprinkle.png"
+  },
+  "M2": {
+    "Name": "2nd Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/anima/lara/hexa-dragon-vein-eruption.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Big Stretch Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Big_Stretch.png"
+  },
+  "B2": {
+    "Name": "Land's Connection Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Land%27s_Connection.png"
+  },
+  "B3": {
+    "Name": "Surging Essence Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Surging_Essence.png"
+  },
+  "B4": {
+    "Name": "Winding Mountain Ridge Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Winding_Mountain_Ridge.png"
+  },
+  "O1":  {
+    "Name": "Universe in Bloom",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Universe_in_Bloom.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

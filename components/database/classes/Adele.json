@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Cleave",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Enhanced_Cleave.png"
+  },
+  "M2": {
+    "Name": "HEXA Hunting Decree",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Hunting_Decree.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Ruin",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Ruin.png"
+  },
+  "B2": {
+    "Name": "Infinity Blade",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Infinity_Blade.png"
+  },
+  "B3": {
+    "Name": "Legacy Restoration",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Legacy_Restoration.png"
+  },
+  "B4": {
+    "Name": "Storm",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Storm.png"
+  },
+  "O1":  {
+    "Name": "Maestro",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Maestro.png?20231114032313"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

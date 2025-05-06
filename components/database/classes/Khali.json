@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "1st Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/flora/khali/hexa-flurry-crescentum.png"
+  },
+  "M2": {
+    "Name": "2nd Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/flora/khali/hexa-void-chakram-split.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Hex: Pandemonium Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Hex_Pandemonium.png"
+  },
+  "B2": {
+    "Name": "Void Burst Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Void_Burst.png"
+  },
+  "B3": {
+    "Name": "Arts: Astra Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Arts_Astra.png"
+  },
+  "B4": {
+    "Name": "Resonate: Ultimatum Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Resonate_Ultimatum.png"
+  },
+  "O1":  {
+    "Name": "Hex: Sandstorm",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Hex_Sandstorm.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

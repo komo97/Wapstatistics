@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Song of Heaven",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Song_of_Heaven.png"
+  },
+  "M2": {
+    "Name": "HEXA Trifling Wind",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Trifling_Wind.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Howling Gale Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Howling_Gale.png"
+  },
+  "B2": {
+    "Name": "Merciless Winds Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Merciless_Winds.png"
+  },
+  "B3": {
+    "Name": "Gale Barrier Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Gale_Barrier.png"
+  },
+  "B4": {
+    "Name": "Vortex Sphere Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Vortex_Sphere.png"
+  },
+  "O1":  {
+    "Name": "Mistral Spring",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Mistral_Spring.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "1st Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/anima/hoyoung/hexa-consuming-flames-stone-tremor-gold-banded-cudgel.png"
+  },
+  "M2": {
+    "Name": "2nd Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/anima/hoyoung/hexa-iron-fan-ground-shattering-fan.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Sage: Clone Rampage",
+    "Icon": "https://static.wikia.nocookie.net/maplestory/images/0/0e/Skill_Sage_Clone_Rampage.png/revision/latest?cb=20200209184816"
+  },
+  "B2": {
+    "Name": "Scroll: Tiger of Songyu",
+    "Icon": "https://static.wikia.nocookie.net/maplestory/images/6/6c/Skill_Scroll_Tiger_of_Songyu.png/revision/latest?cb=20200209184922"
+  },
+  "B3": {
+    "Name": "Sage: Wrath of Gods",
+    "Icon": "https://static.wikia.nocookie.net/maplestory/images/b/b3/Skill_Sage_Wrath_of_Gods.png/revision/latest?cb=20200209184818"
+  },
+  "B4": {
+    "Name": "Sage: Three Paths Apparition",
+    "Icon": "https://static.wikia.nocookie.net/maplestory/images/9/94/Skill_Sage_Three_Paths_Apparition.png/revision/latest?cb=20201116065822"
+  },
+  "O1":  {
+    "Name": "Sage: Apotheosis",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Sage_Apotheosis.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

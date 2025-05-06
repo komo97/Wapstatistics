@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Demon Impact",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Demon_Impact.png"
+  },
+  "M2": {
+    "Name": "HEXA Demon Lash",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Demonic_Spear.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Demon Awakening",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Demon_Awakening.png"
+  },
+  "B2": {
+    "Name": "Spirit of Rage",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Spirit_of_Rage.png"
+  },
+  "B3": {
+    "Name": "Orthrus",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Orthrus.png"
+  },
+  "B4": {
+    "Name": "Demon Bane",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Demon_Bane.png"
+  },
+  "O1":  {
+    "Name": "Nightmare",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Nightmare.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

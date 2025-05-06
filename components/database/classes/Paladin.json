@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "1st Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/explorers/paladin/hexa-blast-divine-judgment.png"
+  },
+  "M2": {
+    "Name": "2nd Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/explorers/paladin/hexa-divine-charge-divine-mark.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Divine Echo Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Divine_Echo.png"
+  },
+  "B2": {
+    "Name": "Hammers of the Righteous Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Hammers_of_the_Righteous.png"
+  },
+  "B3": {
+    "Name": "Grand Guardian Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Grand_Guardian.png"
+  },
+  "B4": {
+    "Name": "Mighty Mjolnir Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Mighty_Mjolnir.png"
+  },
+  "O1":  {
+    "Name": "Sacred Bastion",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Sacred_Bastion.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

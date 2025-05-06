@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Rapid Fire",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Rapid_Fire.png"
+  },
+  "M2": {
+    "Name": "HEXA Broadside",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Broadside.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Bullet Barrage",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Bullet_Barrage.png"
+  },
+  "B2": {
+    "Name": "Target Lock",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Target_Lock.png"
+  },
+  "B3": {
+    "Name": "Nautilus Assault",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Nautilus_Assault.png"
+  },
+  "B4": {
+    "Name": "Death Trigger",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Death_Trigger.png"
+  },
+  "O1":  {
+    "Name": "The Dreadnought",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_The_Dreadnought.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Cannon Barrage",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Cannon_Barrage.png"
+  },
+  "M2": {
+    "Name": "HEXA Cannon Bazooka",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Cannon_Bazooka.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Cannon of Mass Destruction",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Cannon_of_Mass_Destruction.png"
+  },
+  "B2": {
+    "Name": "The Nuclear Option",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_The_Nuclear_Option.png"
+  },
+  "B3": {
+    "Name": "Monkey Business",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Monkey_Business.png"
+  },
+  "B4": {
+    "Name": "Poolmaker",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Poolmaker.png"
+  },
+  "O1":  {
+    "Name": "Super Cannon Explosion",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Super_Cannon_Explosion.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

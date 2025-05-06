@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Condemnation",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Condemnation.png"
+  },
+  "M2": {
+    "Name": "HEXA Finishing Blow",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Finishing_Blow.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Aura Scythe",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Aura_Scythe.png"
+  },
+  "B2": {
+    "Name": "Altar of Annihilation",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Altar_of_Annihilation.png"
+  },
+  "B3": {
+    "Name": "Grim Harvest",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Grim_Harvest.png"
+  },
+  "B4": {
+    "Name": "Abyssal Lightning",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Abyssal_Lightning.png"
+  },
+  "O1":  {
+    "Name": "Crimson Pact",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Crimson_Pact.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

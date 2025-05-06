@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "Hexa Trinity",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Trinity.png"
+  },
+  "M2": {
+    "Name": "Hexa Soul Seeker",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Soul_Seeker.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Sparkle Burst",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Sparkle_Burst.png"
+  },
+  "B2": {
+    "Name": "Superstar Spotlight",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Superstar_Spotlight.png"
+  },
+  "B3": {
+    "Name": "Mighty Mascot",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Mighty_Mascot.png"
+  },
+  "B4": {
+    "Name": "Trinity Fusion",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Trinity_Fusion.png"
+  },
+  "O1":  {
+    "Name": "Grand Finale",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Grand_Finale.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

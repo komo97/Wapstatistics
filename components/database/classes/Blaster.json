@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Magnum Punch",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Magnum_Punch.png"
+  },
+  "M2": {
+    "Name": "HEXA Bunker Buster Explosion",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Bunker_Buster_Explosion.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Rocket Punch",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Rocket_Punch.png"
+  },
+  "B2": {
+    "Name": "Gatling Punch",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Gatling_Punch.png"
+  },
+  "B3": {
+    "Name": "Bullet Blast",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Bullet_Blast.png"
+  },
+  "B4": {
+    "Name": "Afterimage Shock",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Afterimage_Shock.png"
+  },
+  "O1":  {
+    "Name": "Final Destroyer",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Final_Destroyer.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

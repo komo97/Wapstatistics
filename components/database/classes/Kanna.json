@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Shikigami Haunting",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Shikigami_Haunting.png"
+  },
+  "M2": {
+    "Name": "HEXA Vanquisher's Charm",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Vanquisher%27s_Charm.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Yuki-musume Shoukan",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Summon_Yuki-musume.png"
+  },
+  "B2": {
+    "Name": "Spirit's Domain",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Spirit%27s_Domain.png"
+  },
+  "B3": {
+    "Name": "Liberated Spirit Circle",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Liberated_Spirit_Circle.png"
+  },
+  "B4": {
+    "Name": "Ghost Yaksha Bosses' Boss",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Ghost_Yaksha_Great_Oni_Lord%27s_Legion.png"
+  },
+  "O1":  {
+    "Name": "Hakumenkonmou Juubi",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Hakumenkonmou_Juubi.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Ishtar's Ring",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Ishtar%27s_Ring.png"
+  },
+  "M2": {
+    "Name": "2nd Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/heroes/mercedes/hexa-leaf-tornado-2.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Spirit of Elluel Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Spirit_of_Elluel.png"
+  },
+  "B2": {
+    "Name": "Sylvidia's Flight Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Sylvidia%27s_Flight.png"
+  },
+  "B3": {
+    "Name": "Irkalla's Wrath Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Irkalla%27s_Wrath.png"
+  },
+  "B4": {
+    "Name": "Royal Knights Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Royal_Knights.png"
+  },
+  "O1":  {
+    "Name": "Unfading Glory",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Unfading_Glory.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

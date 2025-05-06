@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "1st Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/cygnus-knights/thunder-breaker/hexa-annihilate.png"
+  },
+  "M2": {
+    "Name": "2nd Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/cygnus-knights/thunder-breaker/hexa-thunderbolt-1.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Lightning Cascade Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Lightning_Cascade.png"
+  },
+  "B2": {
+    "Name": "Shark Torpedo Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Shark_Torpedo.png"
+  },
+  "B3": {
+    "Name": "Lightning God Spear Strike Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Lightning_God_Spear_Strike.png"
+  },
+  "B4": {
+    "Name": "Lightning Spear Multistrike Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Lightning_Spear_Multistrike.png"
+  },
+  "O1":  {
+    "Name": "Thunder Wall Sea Wave",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Thunder_Wall_Sea_Wave.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

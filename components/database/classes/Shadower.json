@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "1st Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/explorers/shadower/hexa-assassinate.png"
+  },
+  "M2": {
+    "Name": "2nd Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/explorers/shadower/hexa-meso-explosion-1.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Shadow Assault Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Shadow_Assault.png"
+  },
+  "B2": {
+    "Name": "Trickblade Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Trickblade.png"
+  },
+  "B3": {
+    "Name": "Sonic Blow Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Sonic_Blow.png"
+  },
+  "B4": {
+    "Name": "Slash Shadow Formation Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Slash_Shadow_Formation.png"
+  },
+  "O1":  {
+    "Name": "Halve Cut",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Halve_Cut.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

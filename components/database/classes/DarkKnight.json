@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Gungnir's Descent",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Gungnir%27s_Descent.png"
+  },
+  "M2": {
+    "Name": "HEXA Dark Impale",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Dark_Impale.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Spear of Darkness",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Spear_of_Darkness.png"
+  },
+  "B2": {
+    "Name": "Radiant Evil",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Radiant_Evil.png"
+  },
+  "B3": {
+    "Name": "Calamitous Cyclone",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Calamitous_Cyclone.png"
+  },
+  "B4": {
+    "Name": "Darkness Aura",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Darkness_Aura.png"
+  },
+  "O1":  {
+    "Name": "Dead Space",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Dead_Space.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

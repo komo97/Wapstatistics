@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "1st Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/resistance/xenon/hexa-mecha-purge.png"
+  },
+  "M2": {
+    "Name": "2nd Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/resistance/xenon/hexa-triangulation-hypogram-field.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Omega Blaster Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Omega_Blaster.png"
+  },
+  "B2": {
+    "Name": "Core Overload Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Core_Overload.png"
+  },
+  "B3": {
+    "Name": "Hypogram Field: Fusion Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Hypogram_Field_Fusion.png"
+  },
+  "B4": {
+    "Name": "Photon Ray Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Photon_Ray.png"
+  },
+  "O1":  {
+    "Name": "Artificial Evolution",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Artificial_Evolution.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

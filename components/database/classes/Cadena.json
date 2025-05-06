@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Chain Arts: Thrash",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Chain_Arts_Thrash.png"
+  },
+  "M2": {
+    "Name": "HEXA Muscle Memory",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Muscle_Memory.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Chain Arts: Void Strike",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Chain_Arts_Void_Strike.png"
+  },
+  "B2": {
+    "Name": "Apocalypse Cannon",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Apocalypse_Cannon.png"
+  },
+  "B3": {
+    "Name": "Chain Arts: Maelstrom",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Chain_Arts_Maelstrom.png"
+  },
+  "B4": {
+    "Name": "Muscle Memory Finale",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Muscle_Memory_Finale.png"
+  },
+  "O1":  {
+    "Name": "Chain Arts: Grand Arsenal",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Chain_Arts_Grand_Arsenal.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

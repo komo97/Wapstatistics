@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "1st Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/explorers/night-lord/hexa-quad-star-1.png"
+  },
+  "M2": {
+    "Name": "2nd Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/explorers/night-lord/hexa-assassins-mark.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Throwing Star Barrage Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Throwing_Star_Barrage.png"
+  },
+  "B2": {
+    "Name": "Shurrikane Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Shurrikane.png"
+  },
+  "B3": {
+    "Name": "Dark Lord's Omen Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Dark_Lord%27s_Omen.png"
+  },
+  "B4": {
+    "Name": "Throw Blasting Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Throw_Blasting.png"
+  },
+  "O1":  {
+    "Name": "Life and Death",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Life_and_Death.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

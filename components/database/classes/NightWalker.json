@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Quintuple Star",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Quintuple_Star.png"
+  },
+  "M2": {
+    "Name": "2nd Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/cygnus-knights/night-walker/hexa-shadow-bat-ravenous-bat.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Shadow Spear Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Shadow_Spear.png"
+  },
+  "B2": {
+    "Name": "Greater Dark Servant Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Greater_Dark_Servant.png"
+  },
+  "B3": {
+    "Name": "Shadow Bite Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Shadow_Bite.png"
+  },
+  "B4": {
+    "Name": "Rapid Throw Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Rapid_Throw.png"
+  },
+  "O1":  {
+    "Name": "Silence",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Silence.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

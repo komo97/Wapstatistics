@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Mana Burst",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Mana_Burst.png"
+  },
+  "M2": {
+    "Name": "2nd Mastery Node",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Thunder_Circle.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Elemental Barrage",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Elemental_Barrage.png"
+  },
+  "B2": {
+    "Name": "Dragon Slam",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Dragon_Slam.png"
+  },
+  "B3": {
+    "Name": "Elemental Radiance",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Elemental_Radiance.png"
+  },
+  "B4": {
+    "Name": "Spiral of Mana",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Spiral_of_Mana.png"
+  },
+  "O1":  {
+    "Name": "Zodiac Burst",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Zodiac_Burst.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

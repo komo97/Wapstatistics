@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Phantom Blow",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Phantom_Blow.png"
+  },
+  "M2": {
+    "Name": "HEXA Asura's Anger",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Asura%27s_Anger.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Blade Storm",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Blade_Storm.png"
+  },
+  "B2": {
+    "Name": "Blades of Destiny",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Blades_of_Destiny.png"
+  },
+  "B3": {
+    "Name": "Blade Tornado",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Blade_Tornado.png"
+  },
+  "B4": {
+    "Name": "Haunted Edge",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Haunted_Edge.png"
+  },
+  "O1":  {
+    "Name": "Karma Blade",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Karma_Blade.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

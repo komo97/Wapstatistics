@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Beyond Blade",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Beyond_Blade.png"
+  },
+  "M2": {
+    "Name": "HEXA Finisher - Hunter's Prey",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Finisher_-_Hunter%27s_Prey.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Finisher - Adrenaline Surge",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Finisher_-_Adrenaline_Surge.png"
+  },
+  "B2": {
+    "Name": "Maha's Carnage",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Maha%27s_Carnage.png"
+  },
+  "B3": {
+    "Name": "Final Beyond Blade - White Tiger",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Final_Beyond_Blade_-_White_Tiger.png"
+  },
+  "B4": {
+    "Name": "Blizzard Tempest",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Blizzard_Tempest.png"
+  },
+  "O1":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O2":  {
+    "Name": "Endgame",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Endgame.png"
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

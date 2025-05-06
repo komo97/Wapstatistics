@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Angel Ray",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Angel_Ray.png"
+  },
+  "M2": {
+    "Name": "HEXA Big Bang",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Big_Bang_%28Holy_Explosion%29.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Benediction",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Benediction.png"
+  },
+  "B2": {
+    "Name": "Angel of Balance",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Angel_of_Balance.png"
+  },
+  "B3": {
+    "Name": "Peacemaker",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Peacemaker.png"
+  },
+  "B4": {
+    "Name": "Divine Punishment",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Divine_Punishment.png"
+  },
+  "O1":  {
+    "Name": "Holy Advent",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Holy_Advent.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

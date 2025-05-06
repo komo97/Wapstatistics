@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "1st Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/resistance/wild-hunter/hexa-wild-arrow-blast.png"
+  },
+  "M2": {
+    "Name": "2nd Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/resistance/wild-hunter/hexa-jaguar.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Jaguar Storm Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Jaguar_Storm.png"
+  },
+  "B2": {
+    "Name": "Primal Fury Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Primal_Fury.png"
+  },
+  "B3": {
+    "Name": "Primal Grenade Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Primal_Grenade.png"
+  },
+  "B4": {
+    "Name": "Wild Arrow Blast Type X Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Wild_Arrow_Blast_Type_X.png"
+  },
+  "O1":  {
+    "Name": "Nature's Truth",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Nature%27s_Truth.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

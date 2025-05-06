@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Chain Lightning",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Chain_Lightning.png"
+  },
+  "M2": {
+    "Name": "2nd Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/explorers/ice-lightning/hexa-frozen-orb-blizzard.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Ice Age Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Ice_Age.png"
+  },
+  "B2": {
+    "Name": "Bolt Barrage Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Bolt_Barrage.png"
+  },
+  "B3": {
+    "Name": "Spirit of Snow Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Spirit_of_Snow.png"
+  },
+  "B4": {
+    "Name": "Jupiter Thunder Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Jupiter_Thunder.png"
+  },
+  "O1":  {
+    "Name": "Frozen Lightning",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Frozen_Lightning.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

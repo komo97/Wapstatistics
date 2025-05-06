@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Rai Sanrenzan",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Rai_Sanrenzan.png"
+  },
+  "M2": {
+    "Name": "HEXA Shinsoku",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Shinsoku.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Battoujutsu Zankou",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Battoujutsu_Zankou.png"
+  },
+  "B2": {
+    "Name": "Iaijutsu Phantom Blade",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Iaijutsu_Phantom_Blade.png"
+  },
+  "B3": {
+    "Name": "Battoujutsu Ultimate Will",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Battoujutsu_Ultimate_Will.png"
+  },
+  "B4": {
+    "Name": "Instant Slice",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Instant_Slice.png"
+  },
+  "O1":  {
+    "Name": "Jin Quick Draw",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Jin_Quick_Draw.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

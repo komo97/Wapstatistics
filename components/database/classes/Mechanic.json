@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "1st Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/resistance/mechanic/hexa-heavy-salvo-plus-ap-salvo-plus.png"
+  },
+  "M2": {
+    "Name": "HEXA Homing Beacon",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Homing_Beacon.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Doomsday Device Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Doomsday_Device.png"
+  },
+  "B2": {
+    "Name": "Mobile Missile Battery Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Mobile_Missile_Battery.png"
+  },
+  "B3": {
+    "Name": "Full Metal Barrage Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Full_Metal_Barrage.png"
+  },
+  "B4": {
+    "Name": "Mecha Carrier Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Mecha_Carrier.png"
+  },
+  "O1":  {
+    "Name": "Ground Zero",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Ground_Zero.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

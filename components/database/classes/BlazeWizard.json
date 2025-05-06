@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Orbital Flame",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Orbital_Flame_%28Enhanced%29.png"
+  },
+  "M2": {
+    "Name": "HEXA Blazing Extinction",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Blazing_Extinction_%28Blazing_Lion%29.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Orbital Inferno",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Orbital_Inferno.png"
+  },
+  "B2": {
+    "Name": "Savage Flame",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Savage_Flame.png"
+  },
+  "B3": {
+    "Name": "Inferno Sphere",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Inferno_Sphere.png"
+  },
+  "B4": {
+    "Name": "Salamander Mischief",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Salamander_Mischief.png"
+  },
+  "O1":  {
+    "Name": "Eternity",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Eternity.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Xuanshan Arts",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Xuanshan_Arts_%28Tian%29.png"
+  },
+  "M2": {
+    "Name": "HEXA Divine Art: Howling Storm",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Divine_Art_Howling_Storm.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Soul Art: Beneath Heaven Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Soul_Art_Beneath_Heaven.png"
+  },
+  "B2": {
+    "Name": "Soul Art: The Conquered Self Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Soul_Art_The_Conquered_Self.png"
+  },
+  "B3": {
+    "Name": "Soul Art: The Opened Gate Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Soul_Art_The_Opened_Gate.png"
+  },
+  "B4": {
+    "Name": "Divine Art: Crashing Earth Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Divine_Art_Crashing_Earth.png"
+  },
+  "O1":  {
+    "Name": "Soul Art: Jianghu Dragon",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Soul_Art_Jianghu_Dragon.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

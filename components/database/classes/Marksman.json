@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Snipe",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Ultimate_Snipe.png"
+  },
+  "M2": {
+    "Name": "HEXA Piercing Arrow",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Ultimate_Piercing_Arrow.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Perfect Shot Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Perfect_Shot.png"
+  },
+  "B2": {
+    "Name": "Split Shot Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Split_Shot.png"
+  },
+  "B3": {
+    "Name": "Surge Bolt Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Surge_Bolt.png"
+  },
+  "B4": {
+    "Name": "Repeating Crossbow Cartridge Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Repeating_Crossbow_Cartridge.png"
+  },
+  "O1":  {
+    "Name": "Final Aim",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Final_Aim.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

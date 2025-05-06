@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Ender",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Ender.png"
+  },
+  "M2": {
+    "Name": "2nd Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/heroes/luminous/hexa-reflection.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Gate of Light Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Gate_of_Light.png"
+  },
+  "B2": {
+    "Name": "Aether Conduit Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Aether_Conduit.png"
+  },
+  "B3": {
+    "Name": "Baptism of Light and Darkness Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Baptism_of_Light_and_Darkness.png"
+  },
+  "B4": {
+    "Name": "Liberation Orb Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Liberation_Orb.png"
+  },
+  "O1":  {
+    "Name": "Harmonic Paradox",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Harmonic_Paradox.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

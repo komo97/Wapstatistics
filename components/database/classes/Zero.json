@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "1st Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/other/zero/hexa-wind-cutter-giga-crash.png"
+  },
+  "M2": {
+    "Name": "2nd Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/other/zero/hexa-spin-driver-rolling-cross.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Chrono Break Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Chrono_Break.png"
+  },
+  "B2": {
+    "Name": "Twin Blades of Time Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Twin_Blades_of_Time.png"
+  },
+  "B3": {
+    "Name": "Shadow Flash Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Shadow_Flash_%28Beta%29.png"
+  },
+  "B4": {
+    "Name": "Ego Weapon Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Ego_Weapon_%28Alpha%29.png"
+  },
+  "O1":  {
+    "Name": "End Time",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_End_Time.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

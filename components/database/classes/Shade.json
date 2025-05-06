@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Spirit Claw",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Spirit_Claw.png"
+  },
+  "M2": {
+    "Name": "HEXA Fox Spirits",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Fox_Spirits.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Fox God Flash Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Fox_God_Flash.png"
+  },
+  "B2": {
+    "Name": "Spiritgate Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Spiritgate.png"
+  },
+  "B3": {
+    "Name": "True Spirit Claw Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_True_Spirit_Claw.png"
+  },
+  "B4": {
+    "Name": "Smashing Multipunch Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Smashing_Multipunch.png"
+  },
+  "O1":  {
+    "Name": "Advent of the Fox",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Advent_of_the_Fox.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

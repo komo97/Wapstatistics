@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Octopunch",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Octopunch.png"
+  },
+  "M2": {
+    "Name": "HEXA Sea Serpent",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Sea_Serpent%27s_Rage.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Lightning Form",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Lightning_Form.png"
+  },
+  "B2": {
+    "Name": "Lord of the Deep",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Lord_of_the_Deep.png"
+  },
+  "B3": {
+    "Name": "Serpent Vortex",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Serpent_Vortex.png"
+  },
+  "B4": {
+    "Name": "Howling Fist",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Howling_Fist.png"
+  },
+  "O1":  {
+    "Name": "Unleash Neptunus",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Unleash_Neptunus.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

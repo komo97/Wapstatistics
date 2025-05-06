@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "1st Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/other/kinesis/hexa-ultimate-metal-press.png"
+  },
+  "M2": {
+    "Name": "2nd Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/other/kinesis/hexa-psychic-grab-psychic-shot.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Psychic Tornado Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Psychic_Tornado.png"
+  },
+  "B2": {
+    "Name": "Ultimate - Mind Over Matter Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Ultimate_-_Mind_Over_Matter.png"
+  },
+  "B3": {
+    "Name": "Ultimate - Psychic Shockwave Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Ultimate_-_Psychic_Shockwave.png"
+  },
+  "B4": {
+    "Name": "Law of Gravity Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Law_of_Gravity.png"
+  },
+  "O1":  {
+    "Name": "From Another Realm",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_From_Another_Realm.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "1st Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/explorers/fire-poison/hexa-flame-sweep.png"
+  },
+  "M2": {
+    "Name": "2nd Mastery Node",
+    "Icon": "https://grandislibrary.com/class-icons/explorers/fire-poison/hexa-flame-haze-mist-eruption.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "DoT Punisher Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_DoT_Punisher.png"
+  },
+  "B2": {
+    "Name": "Poison Nova Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Poison_Nova.png"
+  },
+  "B3": {
+    "Name": "Elemental Fury Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Elemental_Fury.png"
+  },
+  "B4": {
+    "Name": "Poison Chain Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Poison_Chain.png"
+  },
+  "O1":  {
+    "Name": "Infernal Venom",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Infernal_Venom.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Strike",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Strike.png"
+  },
+  "M2": {
+    "Name": "HEXA Sneak Attack",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Sneak_Attack.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Beast's Rage Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Beast%27s_Rage.png"
+  },
+  "B2": {
+    "Name": "Beak Strike Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Beak_Strike.png"
+  },
+  "B3": {
+    "Name": "[Focus] Awaken Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_%28Focus%29_Awaken.png"
+  },
+  "B4": {
+    "Name": "Nature's Grace Boost",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Nature%27s_Grace.png"
+  },
+  "O1":  {
+    "Name": "Source Flow",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Source_Flow.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

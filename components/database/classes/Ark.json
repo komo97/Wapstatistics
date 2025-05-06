@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "First Mastery",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Awakened_Abyss.png"
+  },
+  "M2": {
+    "Name": "Second Mastery",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_HEXA_Grievous_Wound.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Abyssal Recall",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Abyssal_Recall.png"
+  },
+  "B2": {
+    "Name": "Infinity Spell",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Infinity_Spell.png"
+  },
+  "B3": {
+    "Name": "Devious Nightmare/Devious Dream",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Devious_Dream.png"
+  },
+  "B4": {
+    "Name": "Endlessly Starving Beast",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Endlessly_Starving_Beast.png"
+  },
+  "O1":  {
+    "Name": "Primordial Abyss",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Primordial_Abyss.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}

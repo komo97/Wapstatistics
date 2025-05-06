@@ -1,0 +1,58 @@
+{
+  "M1": {
+    "Name": "HEXA Hurricane",
+    "Icon": "https://maplestorywiki.net/w/File:Skill_HEXA_Hurricane_Shootout_Mode.png"
+  },
+  "M2": {
+    "Name": "HEXA Arrow Stream",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Enhanced_Arrow_Stream.png"
+  },
+  "M3": {
+    "Name": "",
+    "Icon": ""
+  },
+  "M4": {
+    "Name": "",
+    "Icon": ""
+  },
+  "B1": {
+    "Name": "Storm of Arrows",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Storm_of_Arrows.png"
+  },
+  "B2": {
+    "Name": "Inhuman Speed",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Inhuman_Speed.png"
+  },
+  "B3": {
+    "Name": "Quiver Barrage",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Quiver_Barrage.png"
+  },
+  "B4": {
+    "Name": "Silhouette Mirage",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Silhouette_Mirage.png"
+  },
+  "O1":  {
+    "Name": "Ascendant Shadow",
+    "Icon": "https://media.maplestorywiki.net/yetidb/Skill_Ascendant_Shadow.png"
+  },
+  "O2":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O3":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O4":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O5":  {
+    "Name": "",
+    "Icon": ""
+  },
+  "O6":  {
+    "Name": "",
+    "Icon": ""
+  }
+}
