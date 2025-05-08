@@ -20,16 +20,7 @@ function isAlphaOrParen(str) {
 }
 
 export default function App(){
-  const udata = {
-    o1level:15,
-    m1level:30,
-    m2level:18,
-    b1level:1,
-    b2level:10,
-    b3level:19,
-    b4level:1,
-    g1level:19
-  };
+
   const [selClass, setClass, initClass] = makePersisted(createSignal("Adele"))
   
   console.log(selClass())
@@ -37,6 +28,11 @@ export default function App(){
     setClass("Adele")
   return (<>
       <table>
+        <thead>
+          <tr>
+          <th></th>
+          </tr>
+        </thead>
         <tbody>
           <tr>
             <td>
@@ -46,7 +42,7 @@ export default function App(){
               <Show when={selClass} fallback={<div></div>}>
                 <HexaClassDisplay cl={
                   Classes[selClass()]
-                } userdata={udata}></HexaClassDisplay>
+                } clName={selClass()}></HexaClassDisplay>
               </Show>
             </td>
           </tr>

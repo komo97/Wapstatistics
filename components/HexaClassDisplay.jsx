@@ -1,63 +1,217 @@
-import { splitProps, createSignal, Show } from "solid-js";
+import { createSignal, Show, createEffect, onMount, onCleanup } from "solid-js";
+import { createStore, unwrap } from "solid-js/store";
 import FragProgression from "./database/FragProgression.json";
 import GeneralSkills from "./database/General.json";
 import { makePersisted } from "@solid-primitives/storage";
 
 export default function HexaClassDisplay(props) {
-  const [ori1, setOri1, init] = makePersisted(
-    createSignal(props.userdata.o1level)
-  );
-  const [mst1, setMst1, init2] = makePersisted(
-    createSignal(props.userdata.m1level)
-  );
-  const [mst2, setMst2, init3] = makePersisted(
-    createSignal(props.userdata.m2level)
-  );
-  const [bst1, setBst1, init4] = makePersisted(
-    createSignal(props.userdata.b1level)
-  );
-  const [bst2, setBst2, init5] = makePersisted(
-    createSignal(props.userdata.b2level)
-  );
-  const [bst3, setBst3, init6] = makePersisted(
-    createSignal(props.userdata.b3level)
-  );
-  const [bst4, setBst4, init7] = makePersisted(
-    createSignal(props.userdata.b4level)
-  );
-  const [gen1, setGen1, init8] = makePersisted(
-    createSignal(props.userdata.g1level)
-  );
+  const [userClass, setUserClass, init] = makePersisted(createSignal(props.clName));
+  const [userHexaData, setUserHexaData] = createStore({
+        'class': '',
+        'name': '',
+        'lvl': 260,
+        'exp': 0,
+        'frag': 0,
+        'o1' : 0,
+        'o2': 0,
+        'o3': 0,
+        'o4': 0,
+        'o5': 0,
+        'o6': 0,
+        'mst1': 0,
+        'mst2': 0,
+        'mst3': 0,
+        'mst4': 0,
+        'bst1': 0,
+        'bst2': 0,
+        'bst3': 0,
+        'bst4': 0,
+        'gen1': 0,
+        'gen3': 0,
+        'gen4': 0,
+        'o1Targ' : 30,
+        'o2Targ': 30,
+        'o3Targ': 30,
+        'o4Targ': 30,
+        'o5Targ': 30,
+        'o6Targ': 30,
+        'mst1Targ': 30,
+        'mst2Targ': 30,
+        'mst3Targ': 30,
+        'mst4Targ': 30,
+        'bst1Targ': 30,
+        'bst2Targ': 30,
+        'bst3Targ': 30,
+        'bst4Targ': 30,
+        'gen1Targ': 30,
+        'gen2Targ': 30,
+        'gen3Targ': 30,
+        'gen4Targ': 30,
+      }); 
+      
+  const [ori1, setOri1] = createSignal(1);
+  const [mst1, setMst1] = createSignal(1);
+  const [mst2, setMst2] = createSignal(1);
+  const [mst3, setMst3] = createSignal(1);
+  const [mst4, setMst4] = createSignal(1);
+  const [bst1, setBst1] = createSignal(1);
+  const [bst2, setBst2] = createSignal(1);
+  const [bst3, setBst3] = createSignal(1);
+  const [bst4, setBst4] = createSignal(1);
+  const [gen1, setGen1] = createSignal(1);
   
-  const [ori1Targ, setOri1Targ, initTarg1] = makePersisted(
-    createSignal(30)
-  );
-  const [mst1Targ, setMst1Targ, initTarg2] = makePersisted(
-    createSignal(30)
-  );
-  const [mst2Targ, setMst2Targ, initTarg3] = makePersisted(
-    createSignal(30)
-  );
-  const [bst1Targ, setBst1Targ, initTarg4] = makePersisted(
-    createSignal(30)
-  );
-  const [bst2Targ, setBst2Targ, initTarg5] = makePersisted(
-    createSignal(30)
-  );
-  const [bst3Targ, setBst3Targ, initTarg6] = makePersisted(
-    createSignal(30)
-  );
-  const [bst4Targ, setBst4Targ, initTarg7] = makePersisted(
-    createSignal(30)
-  );
-  const [gen1Targ, setGen1Targ, initTarg8] = makePersisted(
-    createSignal(30)
-  );
+  const [ori1Targ, setOri1Targ] = createSignal(30);
+  const [mst1Targ, setMst1Targ] = createSignal(30);
+  const [mst2Targ, setMst2Targ] = createSignal(30);
+  const [mst3Targ, setMst3Targ] = createSignal(30);
+  const [mst4Targ, setMst4Targ] = createSignal(30);
+  const [bst1Targ, setBst1Targ] = createSignal(30);
+  const [bst2Targ, setBst2Targ] = createSignal(30);
+  const [bst3Targ, setBst3Targ] = createSignal(30);
+  const [bst4Targ, setBst4Targ] = createSignal(30);
+  const [gen1Targ, setGen1Targ] = createSignal(30);
   
+  const [fph, setfph, init1] = makePersisted(createSignal(20));
+  const [wapday, setwapday, init2] = makePersisted(createSignal(2));
+
+  function TestForHexaData(){
+    const uData = localStorage.getItem(props.clName);
+    if(uData === undefined){
+      localStorage.setItem(props.clName, JSON.stringify(unwrap(userHexaData)))
+      setUserHexaData({});
+    }
+    else {
+      setUserHexaData(JSON.parse(uData));
+    }
+    console.log(userHexaData);
+    setOri1(userHexaData.o1);
+    setOri1Targ(userHexaData.o1Targ);
+    setMst1(userHexaData.mst1);
+    setMst1Targ(userHexaData.mst1Targ);
+    setMst2(userHexaData.mst2);
+    setMst2Targ(userHexaData.mst2Targ);
+    setMst3(userHexaData.mst3);
+    setMst3Targ(userHexaData.mst3Targ);
+    setMst4(userHexaData.mst4);
+    setMst4Targ(userHexaData.mst4Targ);
+    setBst1(userHexaData.bst1);
+    setBst1Targ(userHexaData.bst1Targ);
+    setBst2(userHexaData.bst2);
+    setBst2Targ(userHexaData.bst2Targ);
+    setBst3(userHexaData.bst3);
+    setBst3Targ(userHexaData.bst3Targ);
+    setBst4(userHexaData.bst4);
+    setBst4Targ(userHexaData.bst4Targ);
+    setGen1(userHexaData.gen1);
+    setGen1Targ(userHexaData.gen1Targ);
+  }
   
+  onMount( () => {
+    TestForHexaData();
+  });
   
-  const [fph, setfph, init9] = makePersisted(createSignal(20));
-  const [wapday, setwapday, init10] = makePersisted(createSignal(2));
+  onCleanup(() => {
+    setUserHexaData({
+      'name': '',
+      'lvl': 260,
+      'exp': 0,
+      'frag': 0,
+      'o1' : 0,
+      'o2': 0,
+      'o3': 0,
+      'o4': 0,
+      'o5': 0,
+      'o6': 0,
+      'mst1': 0,
+      'mst2': 0,
+      'mst3': 0,
+      'mst4': 0,
+      'bst1': 0,
+      'bst2': 0,
+      'bst3': 0,
+      'bst4': 0,
+      'gen1': 0,
+      'gen3': 0,
+      'gen4': 0,
+      'o1Targ' : 30,
+      'o2Targ': 30,
+      'o3Targ': 30,
+      'o4Targ': 30,
+      'o5Targ': 30,
+      'o6Targ': 30,
+      'mst1Targ': 30,
+      'mst2Targ': 30,
+      'mst3Targ': 30,
+      'mst4Targ': 30,
+      'bst1Targ': 30,
+      'bst2Targ': 30,
+      'bst3Targ': 30,
+      'bst4Targ': 30,
+      'gen1Targ': 30,
+      'gen2Targ': 30,
+      'gen3Targ': 30,
+      'gen4Targ': 30,
+    });
+  });
+  
+  createEffect(() => {
+    if(userHexaData.class != props.clName){
+      localStorage.setItem(userHexaData.class, JSON.stringify(unwrap(userHexaData)));
+      console.log('refresh User Data');
+      setUserHexaData({
+        'name': '',
+        'class': props.clName,
+        'lvl': 260,
+        'exp': 0,
+        'frag': 0,
+        'o1' : 0,
+        'o2': 0,
+        'o3': 0,
+        'o4': 0,
+        'o5': 0,
+        'o6': 0,
+        'mst1': 0,
+        'mst2': 0,
+        'mst3': 0,
+        'mst4': 0,
+        'bst1': 0,
+        'bst2': 0,
+        'bst3': 0,
+        'bst4': 0,
+        'gen1': 0,
+        'gen3': 0,
+        'gen4': 0,
+        'o1Targ' : 30,
+        'o2Targ': 30,
+        'o3Targ': 30,
+        'o4Targ': 30,
+        'o5Targ': 30,
+        'o6Targ': 30,
+        'mst1Targ': 30,
+        'mst2Targ': 30,
+        'mst3Targ': 30,
+        'mst4Targ': 30,
+        'bst1Targ': 30,
+        'bst2Targ': 30,
+        'bst3Targ': 30,
+        'bst4Targ': 30,
+        'gen1Targ': 30,
+        'gen2Targ': 30,
+        'gen3Targ': 30,
+        'gen4Targ': 30,
+      });
+      TestForHexaData();
+    }
+    else {
+      setUserHexaData(JSON.parse(localStorage.getItem(props.clName)));
+    }
+  })
+
+  function UpdateLocalStorage() {
+    localStorage.setItem(userHexaData.class, JSON.stringify(unwrap(userHexaData)));
+    console.log(userHexaData);
+  }
+
   function CurrFragTotal() {
     return (
       FragProgression.Origin.cumulative[ori1() - 1] +
@@ -117,7 +271,10 @@ export default function HexaClassDisplay(props) {
               value={ori1()}
               onChange={(event) => {
                 event.target.value = event.target.value.replace(/[^\d.-]/g, '');
-                setOri1(event.target.value)}}
+                setOri1(event.target.value);
+                setUserHexaData('o1', event.target.value);
+                UpdateLocalStorage();
+              }}
               type="numeric"
               min="0"
               max="30"
@@ -131,7 +288,10 @@ export default function HexaClassDisplay(props) {
               value={ori1Targ()}
               onChange={(event) => {
                 event.target.value = event.target.value.replace(/[^\d.-]/g, '');
-                setOri1Targ(event.target.value)}}
+                setOri1Targ(event.target.value);
+                setUserHexaData('o1Targ', event.target.value);
+                UpdateLocalStorage();
+              }}
               type="numeric"
               min={ori1()}
               max="30"
@@ -175,7 +335,10 @@ export default function HexaClassDisplay(props) {
               value={mst1()}
               onChange={(event) => {
                 event.target.value = event.target.value.replace(/[^\d.-]/g, '');
-                setMst1(event.target.value)}}
+                setMst1(event.target.value);
+                setUserHexaData('mst1', event.target.value);
+                UpdateLocalStorage();
+              }}
               type="numeric"
               min="0"
               max="30"
@@ -189,7 +352,10 @@ export default function HexaClassDisplay(props) {
               value={mst1Targ()}
               onChange={(event) => {
                 event.target.value = event.target.value.replace(/[^\d.-]/g, '');
-                setMst1Targ(event.target.value)}}
+                setMst1Targ(event.target.value);
+                setUserHexaData('mst1Targ', event.target.value);
+                UpdateLocalStorage();
+              }}
               type="numeric"
               min={mst1()}
               max="30"
@@ -222,7 +388,10 @@ export default function HexaClassDisplay(props) {
               value={mst2()}
               onChange={(event) => {
                 event.target.value = event.target.value.replace(/[^\d.-]/g, '');
-                setMst2(event.target.value)}}
+                setMst2(event.target.value);
+                setUserHexaData('mst2', event.target.value);
+                UpdateLocalStorage();
+              }}
               type="numeric"
               min="0"
               max="30"
@@ -236,7 +405,10 @@ export default function HexaClassDisplay(props) {
               value={mst2Targ()}
               onChange={(event) => {
                 event.target.value = event.target.value.replace(/[^\d.-]/g, '');
-                setMst2Targ(event.target.value)}}
+                setMst2Targ(event.target.value);
+                setUserHexaData('mst2Targ', event.target.value);
+                UpdateLocalStorage();
+              }}
               type="numeric"
               min={mst2()}
               max="30"
@@ -272,6 +444,110 @@ export default function HexaClassDisplay(props) {
         </tr>
         <tr>
           <td>
+            <image src={props.cl.M3.Icon}></image>
+          </td>
+          <td>HEXA Mastery 3</td>
+          <td>
+            <input
+              value={mst3()}
+              onChange={(event) => {
+                event.target.value = event.target.value.replace(/[^\d.-]/g, '');
+                setMst3(event.target.value);
+                setUserHexaData('mst3', event.target.value);
+                UpdateLocalStorage();
+              }}
+              type="numeric"
+              min="0"
+              max="30"
+              class="form__field"
+            >
+              {" "}
+            </input>
+          </td>
+          <td>
+            <input
+              value={mst3Targ()}
+              onChange={(event) => {
+                event.target.value = event.target.value.replace(/[^\d.-]/g, '');
+                setMst3Targ(event.target.value);
+                setUserHexaData('mst3Targ', event.target.value);
+                UpdateLocalStorage();
+              }}
+              type="numeric"
+              min={mst2()}
+              max="30"
+              class="form__field"
+            >
+              {" "}
+            </input>
+          </td>
+          <Show when={mst3() < 30} fallback={<td>Maxed out</td>}>
+            <td>{FragProgression.Mastery.levelTable[mst3()]}</td>
+          </Show>
+          <td>{FragProgression.Mastery.cumulative[mst3() - 1]}</td>
+          <Show when={mst3() < 30} fallback={<td>Maxed out</td>}>
+            <td>
+              {FragProgression.Mastery.cumulative[mst3Targ() - 1] -
+                FragProgression.Mastery.cumulative[mst3() - 1]}
+            </td>
+          </Show>
+          <td>{FragProgression.Mastery.total}</td>
+          <td class="TableMarkerText">Days Left</td>
+          <td><a class="bold_numbers">{Math.ceil((Number(FragsToFinish()) / Number(fph()))/(Number(wapday())*2))}</a></td>
+        </tr>
+        <tr>
+          <td>
+            <image src={props.cl.M4.Icon}></image>
+          </td>
+          <td>HEXA Mastery 4</td>
+          <td>
+            <input
+              value={mst4()}
+              onChange={(event) => {
+                event.target.value = event.target.value.replace(/[^\d.-]/g, '');
+                setMst4(event.target.value);
+                setUserHexaData('mst4', event.target.value);
+                UpdateLocalStorage();
+              }}
+              type="numeric"
+              min="0"
+              max="30"
+              class="form__field"
+            >
+              {" "}
+            </input>
+          </td>
+          <td>
+            <input
+              value={mst4Targ()}
+              onChange={(event) => {
+                event.target.value = event.target.value.replace(/[^\d.-]/g, '');
+                setMst4Targ(event.target.value);
+                setUserHexaData('mst4Targ', event.target.value);
+                UpdateLocalStorage();
+              }}
+              type="numeric"
+              min={mst2()}
+              max="30"
+              class="form__field"
+            >
+              {" "}
+            </input>
+          </td>
+          <Show when={mst4() < 30} fallback={<td>Maxed out</td>}>
+            <td>{FragProgression.Mastery.levelTable[mst4()]}</td>
+          </Show>
+          <td>{FragProgression.Mastery.cumulative[mst4() - 1]}</td>
+          <Show when={mst4() < 30} fallback={<td>Maxed out</td>}>
+            <td>
+              {FragProgression.Mastery.cumulative[mst4Targ() - 1] -
+                FragProgression.Mastery.cumulative[mst4() - 1]}
+            </td>
+          </Show>
+          <td>{FragProgression.Mastery.total}</td>
+        </tr>
+        <tr>
+          <td>
             <image src={props.cl.B1.Icon}></image>
           </td>
           <td>{props.cl.B1.Name}</td>
@@ -280,7 +556,10 @@ export default function HexaClassDisplay(props) {
               value={bst1()}
               onChange={(event) => {
                 event.target.value = event.target.value.replace(/[^\d.-]/g, '');
-                setBst1(event.target.value)}}
+                setBst1(event.target.value);
+                setUserHexaData('bst1', event.target.value);
+                UpdateLocalStorage();
+              }}
               type="numeric"
               min="0"
               max="30"
@@ -294,7 +573,10 @@ export default function HexaClassDisplay(props) {
               value={bst1Targ()}
               onChange={(event) => {
                 event.target.value = event.target.value.replace(/[^\d.-]/g, '');
-                setBst1Targ(event.target.value)}}
+                setBst1Targ(event.target.value);
+                setUserHexaData('bst1Targ', event.target.value);
+                UpdateLocalStorage();
+              }}
               type="numeric"
               min={bst1()}
               max="30"
@@ -314,8 +596,6 @@ export default function HexaClassDisplay(props) {
             </td>
           </Show>
           <td>{FragProgression.Boost.total}</td>
-          <td class="TableMarkerText">Days Left</td>
-          <td><a class="bold_numbers">{Math.ceil((Number(FragsToFinish()) / Number(fph()))/(Number(wapday())*2))}</a></td>
         </tr>
         <tr>
           <td>
@@ -327,7 +607,10 @@ export default function HexaClassDisplay(props) {
               value={bst2()}
               onChange={(event) => {
                 event.target.value = event.target.value.replace(/[^\d.-]/g, '');
-                setBst2(event.target.value)}}
+                setBst2(event.target.value);
+                setUserHexaData('bst2', event.target.value);
+                UpdateLocalStorage();
+              }}
               type="numeric"
               min="0"
               max="30"
@@ -341,7 +624,10 @@ export default function HexaClassDisplay(props) {
               value={bst2Targ()}
               onChange={(event) => {
                 event.target.value = event.target.value.replace(/[^\d.-]/g, '');
-                setBst2Targ(event.target.value)}}
+                setBst2Targ(event.target.value);
+                setUserHexaData('bst2Targ', event.target.value);
+                UpdateLocalStorage();
+              }}
               type="numeric"
               min={bst2()}
               max="30"
@@ -372,7 +658,10 @@ export default function HexaClassDisplay(props) {
               value={bst3()}
               onChange={(event) => {
                 event.target.value = event.target.value.replace(/[^\d.-]/g, '');
-                setBst3(event.target.value)}}
+                setUserHexaData('bst3', event.target.value);
+                setBst3(event.target.value);
+                UpdateLocalStorage();
+              }}
               type="numeric"
               min="0"
               max="30"
@@ -386,7 +675,10 @@ export default function HexaClassDisplay(props) {
               value={bst3Targ()}
               onChange={(event) => {
                 event.target.value = event.target.value.replace(/[^\d.-]/g, '');
-                setBst3Targ(event.target.value)}}
+                setBst3Targ(event.target.value);
+                setUserHexaData('bst3Targ', event.target.value);
+                UpdateLocalStorage();
+              }}
               type="numeric"
               min={bst3()}
               max="30"
@@ -417,7 +709,10 @@ export default function HexaClassDisplay(props) {
               value={bst4()}
               onChange={(event) => {
                 event.target.value = event.target.value.replace(/[^\d.-]/g, '');
-                setBst4(event.target.value)}}
+                setBst4(event.target.value);
+                setUserHexaData('bst4', event.target.value);
+                UpdateLocalStorage();
+              }}
               type="numeric"
               min="0"
               max="30"
@@ -431,7 +726,10 @@ export default function HexaClassDisplay(props) {
               value={bst4Targ()}
               onChange={(event) => {
                 event.target.value = event.target.value.replace(/[^\d.-]/g, '');
-                setBst4Targ(event.target.value)}}
+                setBst4Targ(event.target.value);
+                setUserHexaData('bst4Targ', event.target.value);
+                UpdateLocalStorage();
+              }}
               type="numeric"
               min={bst4()}
               max="30"
@@ -462,7 +760,10 @@ export default function HexaClassDisplay(props) {
               value={gen1()}
               onChange={(event) => {
                 event.target.value = event.target.value.replace(/[^\d.-]/g, '');
-                setGen1(event.target.value)}}
+                setGen1(event.target.value);
+                setUserHexaData('gen1', event.target.value);
+                UpdateLocalStorage();
+              }}
               type="numeric"
               min="0"
               max="30"
@@ -476,7 +777,10 @@ export default function HexaClassDisplay(props) {
               value={gen1Targ()}
               onChange={(event) => {
                 event.target.value = event.target.value.replace(/[^\d.-]/g, '');
-                setGen1Targ(event.target.value)}}
+                setGen1Targ(event.target.value);
+                setUserHexaData('gen1Targ', event.target.value);
+                UpdateLocalStorage();
+              }}
               type="numeric"
               min={gen1()}
               max="30"
