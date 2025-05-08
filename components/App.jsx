@@ -56,11 +56,32 @@ export default function App(){
       
       </table>
       <footer>
-        <p>Author: Marissa@Kronos</p>
-        <p>Credits for testing and ideas: Laskies, Alice</p>
-        <p>Credits to the <a href="https://maplestorywiki.net/">Maplestory Wiki</a> and <a href="https://grandislibrary.com/">Grandis Library</a> for their skill images.</p>
-        <p>For suggestions: <a href="mailto:sohcahlinne@gmail.com">sohcahlinne@gmail.com</a></p>
-        <p>Like my work? Buy me a <a href='https://www.Ko-fi.com/marissalillevere'>Ko-fi</a></p>
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding: 20px; text-align: left;">
+                <p>Author: Marissa@Kronos</p>
+                <p>Credits for testing and ideas: Laskies, Alice</p>
+                <p>Credits to the <a href="https://maplestorywiki.net/">Maplestory Wiki</a> and <a href="https://grandislibrary.com/">Grandis Library</a> for their skill images.</p>
+                <p>For suggestions: <a href="mailto:sohcahlinne@gmail.com">sohcahlinne@gmail.com</a></p>
+                <p>Like my work? Buy me a <a href='https://www.Ko-fi.com/marissalillevere'>Ko-fi</a></p>
+              </td>
+              <td style="padding: 20px; text-align: right;">
+                <p>
+                  Changelog: <br></br>
+                  v1.0.2 - Added a HEXA save data for each class. M3/M4<br></br>
+                  v1.0.1 - Added Moxuan<br></br>
+                  v1.0.0 - Complete graphical overhaul<br></br>
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
         <p>SHOUTOUT TO WHIMSY 💖</p>
       </footer>
 
