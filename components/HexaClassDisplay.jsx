@@ -214,36 +214,37 @@ export default function HexaClassDisplay(props) {
 
   function CurrFragTotal() {
     return (
-      FragProgression.Origin.cumulative[ori1() - 1] +
-      FragProgression.Mastery.cumulative[mst1() - 1] +
-      FragProgression.Mastery.cumulative[mst2() - 1] +
-      FragProgression.General.cumulative[gen1() - 1] +
-      FragProgression.Boost.cumulative[bst1() - 1] +
-      FragProgression.Boost.cumulative[bst2() - 1] +
-      FragProgression.Boost.cumulative[bst3() - 1] +
-      FragProgression.Boost.cumulative[bst4() - 1]
+      FragProgression.Origin.cumulative[ori1() - 1] ? FragProgression.Origin.cumulative[ori1() - 1] : 0 +
+      FragProgression.Mastery.cumulative[mst1() - 1] ? FragProgression.Mastery.cumulative[mst1() - 1] : 0 +
+      FragProgression.Mastery.cumulative[mst2() - 1] ? FragProgression.Mastery.cumulative[mst2() - 1] : 0 +
+      FragProgression.General.cumulative[gen1() - 1] ? FragProgression.General.cumulative[gen1() - 1] : 0 +
+      FragProgression.Boost.cumulative[bst1() - 1] ? FragProgression.Boost.cumulative[bst1() - 1] : 0 +
+      FragProgression.Boost.cumulative[bst2() - 1] ? FragProgression.Boost.cumulative[bst2() - 1] : 0 +
+      FragProgression.Boost.cumulative[bst3() - 1] ? FragProgression.Boost.cumulative[bst3() - 1] : 0 +
+      FragProgression.Boost.cumulative[bst4() - 1] ? FragProgression.Boost.cumulative[bst4() - 1] : 0
     );
   }
 
   function FragsToFinish() {
+    console.log((FragProgression.Origin.cumulative[ori1() - 1]));
     return (
-      FragProgression.Origin.cumulative[ori1Targ() - 1] -
-      FragProgression.Origin.cumulative[ori1() - 1] +
+      Number(FragProgression.Origin.cumulative[ori1Targ() - 1] -
+      ((FragProgression.Origin.cumulative[ori1() - 1]) === undefined? 0 : FragProgression.Origin.cumulative[ori1() - 1])) +
       (FragProgression.Mastery.cumulative[mst1Targ() - 1] -
-        FragProgression.Mastery.cumulative[mst1() - 1]) +
+      ((FragProgression.Mastery.cumulative[mst1() - 1]) === undefined? 0 : FragProgression.Origin.cumulative[mst1() - 1])) +
       (FragProgression.Mastery.cumulative[mst2Targ() - 1] -
-        FragProgression.Mastery.cumulative[mst2() - 1]) +
+      ((FragProgression.Mastery.cumulative[mst2() - 1]) === undefined? 0 : FragProgression.Origin.cumulative[mst2() - 1])) +
       (FragProgression.General.cumulative[gen1Targ() - 1] -
-        FragProgression.General.cumulative[gen1() - 1]) +
+      ((FragProgression.General.cumulative[gen1() - 1]) === undefined? 0 : FragProgression.Origin.cumulative[mst1() - 1])) +
       (FragProgression.Boost.cumulative[bst1Targ() - 1] -
-        FragProgression.Boost.cumulative[bst1() - 1]) +
+      ((FragProgression.Boost.cumulative[bst1() - 1]) === undefined? 0 : FragProgression.Origin.cumulative[bst1() - 1])) +
       (FragProgression.Boost.cumulative[bst2Targ() - 1] -
-        FragProgression.Boost.cumulative[bst2() - 1]) +
+      ((FragProgression.Boost.cumulative[bst2() - 1]) === undefined? 0 : FragProgression.Origin.cumulative[bst2() - 1])) +
       (FragProgression.Boost.cumulative[bst3Targ() - 1] -
-        FragProgression.Boost.cumulative[bst3() - 1]) +
+      ((FragProgression.Boost.cumulative[bst3() - 1]) === undefined? 0 : FragProgression.Origin.cumulative[bst3() - 1])) +
       (FragProgression.Boost.cumulative[bst4Targ() - 1] -
-        FragProgression.Boost.cumulative[bst4() - 1])
-    );
+      ((FragProgression.Boost.cumulative[bst4() - 1]) === undefined? 0 : FragProgression.Origin.cumulative[bst4() - 1]))
+    ); 
   }
 
   return (
@@ -257,8 +258,6 @@ export default function HexaClassDisplay(props) {
         <th>Current Frags</th>
         <th>Frags to finish</th>
         <th>Total frags</th>
-        <th></th>
-        <th></th>
       </thead>
       <tbody class='custom-table'>
         <tr>
@@ -307,23 +306,10 @@ export default function HexaClassDisplay(props) {
           <Show when={ori1() < 30} fallback={<td>Maxed out</td>}>
             <td>
               {FragProgression.Origin.cumulative[ori1Targ() - 1] -
-                FragProgression.Origin.cumulative[ori1() - 1]}
+                (FragProgression.Origin.cumulative[ori1() - 1] ? FragProgression.Origin.cumulative[ori1() - 1] : 0)}
             </td>
           </Show>
           <td>{FragProgression.Origin.total}</td>
-          <td class="TableMarkerText">Frags/hr</td>
-          <td>
-            <input
-              type="number"
-              onChange={(event) => {
-                event.target.value = event.target.value.replace(/[^\d.-]/g, '');
-                setfph(event.target.value)}}
-              value={fph()}
-              min='0'
-              max='99'
-              class="form__field"
-            ></input>
-          </td>
         </tr>
         <tr>
           <td>
@@ -371,12 +357,10 @@ export default function HexaClassDisplay(props) {
           <Show when={mst1() < 30} fallback={<td>Maxed out</td>}>
             <td>
               {FragProgression.Mastery.cumulative[mst1Targ() - 1] -
-                FragProgression.Mastery.cumulative[mst1() - 1]}
+                (FragProgression.Mastery.cumulative[mst1() - 1] ? FragProgression.Mastery.cumulative[mst1() - 1] : 0)}
             </td>
           </Show>
           <td>{FragProgression.Mastery.total}</td>
-          <td class="TableMarkerText">Hours Left</td>
-          <td><a class="bold_numbers">{(Number(FragsToFinish()) / Number(fph())).toFixed(1)}</a></td>
         </tr>
         <tr>
           <td>
@@ -424,23 +408,10 @@ export default function HexaClassDisplay(props) {
           <Show when={mst2() < 30} fallback={<td>Maxed out</td>}>
             <td>
               {FragProgression.Mastery.cumulative[mst2Targ() - 1] -
-                FragProgression.Mastery.cumulative[mst2() - 1]}
+                (FragProgression.Mastery.cumulative[mst2() - 1] ? FragProgression.Mastery.cumulative[mst2() - 1] : 0)}
             </td>
           </Show>
           <td>{FragProgression.Mastery.total}</td>
-          <td class="TableMarkerText">WAPs/day</td>
-          <td>
-            <input
-              type="number"
-              onChange={(event) => {
-                event.target.value = event.target.value.replace(/[^\d.-]/g, '');
-                setwapday(event.target.value)}}
-              value={wapday()}
-              min='0'
-              max='12'
-              class="form__field"
-            ></input>
-          </td>
         </tr>
         <tr>
           <td>
@@ -488,12 +459,10 @@ export default function HexaClassDisplay(props) {
           <Show when={mst3() < 30} fallback={<td>Maxed out</td>}>
             <td>
               {FragProgression.Mastery.cumulative[mst3Targ() - 1] -
-                FragProgression.Mastery.cumulative[mst3() - 1]}
+                (FragProgression.Mastery.cumulative[mst3() - 1] ? FragProgression.Mastery.cumulative[mst3() - 1] : 0)}
             </td>
           </Show>
           <td>{FragProgression.Mastery.total}</td>
-          <td class="TableMarkerText">Days Left</td>
-          <td><a class="bold_numbers">{Math.ceil((Number(FragsToFinish()) / Number(fph()))/(Number(wapday())*2))}</a></td>
         </tr>
         <tr>
           <td>
@@ -541,7 +510,7 @@ export default function HexaClassDisplay(props) {
           <Show when={mst4() < 30} fallback={<td>Maxed out</td>}>
             <td>
               {FragProgression.Mastery.cumulative[mst4Targ() - 1] -
-                FragProgression.Mastery.cumulative[mst4() - 1]}
+                (FragProgression.Mastery.cumulative[mst4() - 1] ? FragProgression.Mastery.cumulative[mst4() - 1] : 0)}
             </td>
           </Show>
           <td>{FragProgression.Mastery.total}</td>
@@ -592,7 +561,7 @@ export default function HexaClassDisplay(props) {
           <Show when={bst1() < 30} fallback={<td>Maxed out</td>}>
             <td>
               {FragProgression.Boost.cumulative[bst1Targ() - 1] -
-                FragProgression.Boost.cumulative[bst1() - 1]}
+                (FragProgression.Boost.cumulative[bst1() - 1] ? FragProgression.Boost.cumulative[bst1() - 1] : 0)}
             </td>
           </Show>
           <td>{FragProgression.Boost.total}</td>
@@ -643,7 +612,7 @@ export default function HexaClassDisplay(props) {
           <Show when={bst2() < 30} fallback={<td>Maxed out</td>}>
             <td>
               {FragProgression.Boost.cumulative[bst2Targ() - 1] -
-                FragProgression.Boost.cumulative[bst2() - 1]}
+                (FragProgression.Boost.cumulative[bst2() - 1] ? FragProgression.Boost.cumulative[bst2() - 1] : 0)}
             </td>
           </Show>
           <td>{FragProgression.Boost.total}</td>
@@ -694,7 +663,7 @@ export default function HexaClassDisplay(props) {
           <Show when={bst3() < 30} fallback={<td>Maxed out</td>}>
             <td>
               {FragProgression.Boost.cumulative[bst3Targ() - 1] -
-                FragProgression.Boost.cumulative[bst3() - 1]}
+                (FragProgression.Boost.cumulative[bst3() - 1] ? FragProgression.Boost.cumulative[bst3() - 1] : 0)}
             </td>
           </Show>
           <td>{FragProgression.Boost.total}</td>
@@ -745,7 +714,7 @@ export default function HexaClassDisplay(props) {
           <Show when={bst4() < 30} fallback={<td>Maxed out</td>}>
             <td>
               {FragProgression.Boost.cumulative[bst4Targ() - 1] -
-                FragProgression.Boost.cumulative[bst4() - 1]}
+                (FragProgression.Boost.cumulative[bst4() - 1] ? FragProgression.Boost.cumulative[bst4() - 1] : 0)}
             </td>
           </Show>
           <td>{FragProgression.Boost.total}</td>
@@ -796,7 +765,7 @@ export default function HexaClassDisplay(props) {
           <Show when={gen1() < 30} fallback={<td>Maxed out</td>}>
             <td>
               {FragProgression.General.cumulative[gen1Targ() - 1] -
-                FragProgression.General.cumulative[gen1() - 1]}
+                (FragProgression.General.cumulative[gen1() - 1] ? FragProgression.General.cumulative[gen1() - 1] : 0)}
             </td>
           </Show>
           <td>{FragProgression.General.total}</td>
@@ -819,6 +788,38 @@ export default function HexaClassDisplay(props) {
               FragProgression.Boost.total +
               FragProgression.Boost.total}
           </td>
+        </tr>
+        <tr>
+          <td class="TableMarkerText">Frags/hr</td>
+          <td>
+            <input
+              type="number"
+              onChange={(event) => {
+                event.target.value = event.target.value.replace(/[^\d.-]/g, '');
+                setfph(event.target.value)}}
+              value={fph()}
+              min='0'
+              max='99'
+              class="form__field"
+            ></input>
+          </td>
+          <td class="TableMarkerText">Hours Left</td>
+          <td><a class="bold_numbers">{(Number(FragsToFinish()) / Number(fph())).toFixed(1)}</a></td>
+          <td class="TableMarkerText">WAPs/day</td>
+          <td>
+            <input
+              type="number"
+              onChange={(event) => {
+                event.target.value = event.target.value.replace(/[^\d.-]/g, '');
+                setwapday(event.target.value)}}
+              value={wapday()}
+              min='0'
+              max='12'
+              class="form__field"
+            ></input>
+          </td>
+          <td class="TableMarkerText">Days Left</td>
+          <td><a class="bold_numbers">{Math.ceil((Number(FragsToFinish()) / Number(fph()))/(Number(wapday())*2))}</a></td>
         </tr>
       </tbody>
     </table>
