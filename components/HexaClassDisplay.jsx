@@ -275,7 +275,7 @@ export default function HexaClassDisplay(props) {
                 setUserHexaData('o1', event.target.value);
                 UpdateLocalStorage();
               }}
-              type="numeric"
+              type="number"
               min="0"
               max="30"
               class="form__field"
@@ -292,7 +292,7 @@ export default function HexaClassDisplay(props) {
                 setUserHexaData('o1Targ', event.target.value);
                 UpdateLocalStorage();
               }}
-              type="numeric"
+              type="number"
               min={ori1()}
               max="30"
               class="form__field"
@@ -314,7 +314,7 @@ export default function HexaClassDisplay(props) {
           <td class="TableMarkerText">Frags/hr</td>
           <td>
             <input
-              type="numeric"
+              type="number"
               onChange={(event) => {
                 event.target.value = event.target.value.replace(/[^\d.-]/g, '');
                 setfph(event.target.value)}}
@@ -339,7 +339,7 @@ export default function HexaClassDisplay(props) {
                 setUserHexaData('mst1', event.target.value);
                 UpdateLocalStorage();
               }}
-              type="numeric"
+              type="number"
               min="0"
               max="30"
               class="form__field"
@@ -356,7 +356,7 @@ export default function HexaClassDisplay(props) {
                 setUserHexaData('mst1Targ', event.target.value);
                 UpdateLocalStorage();
               }}
-              type="numeric"
+              type="number"
               min={mst1()}
               max="30"
               class="form__field"
@@ -392,7 +392,7 @@ export default function HexaClassDisplay(props) {
                 setUserHexaData('mst2', event.target.value);
                 UpdateLocalStorage();
               }}
-              type="numeric"
+              type="number"
               min="0"
               max="30"
               class="form__field"
@@ -409,7 +409,7 @@ export default function HexaClassDisplay(props) {
                 setUserHexaData('mst2Targ', event.target.value);
                 UpdateLocalStorage();
               }}
-              type="numeric"
+              type="number"
               min={mst2()}
               max="30"
               class="form__field"
@@ -431,7 +431,7 @@ export default function HexaClassDisplay(props) {
           <td class="TableMarkerText">WAPs/day</td>
           <td>
             <input
-              type="numeric"
+              type="number"
               onChange={(event) => {
                 event.target.value = event.target.value.replace(/[^\d.-]/g, '');
                 setwapday(event.target.value)}}
@@ -456,7 +456,7 @@ export default function HexaClassDisplay(props) {
                 setUserHexaData('mst3', event.target.value);
                 UpdateLocalStorage();
               }}
-              type="numeric"
+              type="number"
               min="0"
               max="30"
               class="form__field"
@@ -473,7 +473,7 @@ export default function HexaClassDisplay(props) {
                 setUserHexaData('mst3Targ', event.target.value);
                 UpdateLocalStorage();
               }}
-              type="numeric"
+              type="number"
               min={mst2()}
               max="30"
               class="form__field"
@@ -509,7 +509,7 @@ export default function HexaClassDisplay(props) {
                 setUserHexaData('mst4', event.target.value);
                 UpdateLocalStorage();
               }}
-              type="numeric"
+              type="number"
               min="0"
               max="30"
               class="form__field"
@@ -526,7 +526,7 @@ export default function HexaClassDisplay(props) {
                 setUserHexaData('mst4Targ', event.target.value);
                 UpdateLocalStorage();
               }}
-              type="numeric"
+              type="number"
               min={mst2()}
               max="30"
               class="form__field"
@@ -560,7 +560,7 @@ export default function HexaClassDisplay(props) {
                 setUserHexaData('bst1', event.target.value);
                 UpdateLocalStorage();
               }}
-              type="numeric"
+              type="number"
               min="0"
               max="30"
               class="form__field"
@@ -577,7 +577,7 @@ export default function HexaClassDisplay(props) {
                 setUserHexaData('bst1Targ', event.target.value);
                 UpdateLocalStorage();
               }}
-              type="numeric"
+              type="number"
               min={bst1()}
               max="30"
               class="form__field"
@@ -611,7 +611,7 @@ export default function HexaClassDisplay(props) {
                 setUserHexaData('bst2', event.target.value);
                 UpdateLocalStorage();
               }}
-              type="numeric"
+              type="number"
               min="0"
               max="30"
               class="form__field"
@@ -628,7 +628,7 @@ export default function HexaClassDisplay(props) {
                 setUserHexaData('bst2Targ', event.target.value);
                 UpdateLocalStorage();
               }}
-              type="numeric"
+              type="number"
               min={bst2()}
               max="30"
               class="form__field"
@@ -662,7 +662,7 @@ export default function HexaClassDisplay(props) {
                 setBst3(event.target.value);
                 UpdateLocalStorage();
               }}
-              type="numeric"
+              type="number"
               min="0"
               max="30"
               class="form__field"
@@ -679,7 +679,7 @@ export default function HexaClassDisplay(props) {
                 setUserHexaData('bst3Targ', event.target.value);
                 UpdateLocalStorage();
               }}
-              type="numeric"
+              type="number"
               min={bst3()}
               max="30"
               class="form__field"
@@ -713,7 +713,7 @@ export default function HexaClassDisplay(props) {
                 setUserHexaData('bst4', event.target.value);
                 UpdateLocalStorage();
               }}
-              type="numeric"
+              type="number"
               min="0"
               max="30"
               class="form__field"
@@ -730,7 +730,7 @@ export default function HexaClassDisplay(props) {
                 setUserHexaData('bst4Targ', event.target.value);
                 UpdateLocalStorage();
               }}
-              type="numeric"
+              type="number"
               min={bst4()}
               max="30"
               class="form__field"
@@ -764,7 +764,7 @@ export default function HexaClassDisplay(props) {
                 setUserHexaData('gen1', event.target.value);
                 UpdateLocalStorage();
               }}
-              type="numeric"
+              type="number"
               min="0"
               max="30"
               class="form__field"
@@ -781,7 +781,7 @@ export default function HexaClassDisplay(props) {
                 setUserHexaData('gen1Targ', event.target.value);
                 UpdateLocalStorage();
               }}
-              type="numeric"
+              type="number"
               min={gen1()}
               max="30"
               class="form__field"
